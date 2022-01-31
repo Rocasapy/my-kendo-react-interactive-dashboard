@@ -1,0 +1,93 @@
+*{
+  background-color: #C4B7B4;
+}
+.logo{
+  width: 100%;
+  background-color: #285A71
+}
+
+.buttons-right>button {
+  float: right;
+  margin: 5px;
+}
+.app-container {
+  padding: 25px;
+}
+
+.percentage-number {
+  color: #285A71;
+  font-size: 50px;
+  font-weight: bold;
+}
+.percentage-sign {
+  color: #285A71;
+  font-size: 40px;
+}
+.percentage-container {
+  text-align: center;
+}
+.percentage-container:first-child {
+  padding-bottom: 3em;
+}
+.container .row div {
+  outline: solid 1px black;
+}
+
+.teammate:after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.teammate h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  padding-top: 17px;
+  margin: 0;
+}
+.teammate p {
+  margin: 0;
+  font-size: .7em;
+}
+.teammate img {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid #285A71;
+  border-radius: 50%;
+}
+.mate-info {
+  display: inline-block;
+  vertical-align: top;
+}
+.panelbar-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 18rem 1fr;
+  grid-template-rows: 80px 1fr 80px;
+  min-height: 100vh;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.aside {
+  grid-area: 2 / 1 / 4 / 2;
+}
+
+.main {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.footer {
+  grid-area: 3 / 2 / 4 / 3;
+}
